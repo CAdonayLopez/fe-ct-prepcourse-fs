@@ -102,6 +102,7 @@ function multiplicarArgumentos() {
    // Si no se pasan argumentos retorna 0. Si se pasa un argumento, simplemente retórnalo.
    // [PISTA]: "arguments" es un arreglo.
    // Tu código:
+   
    if(Object.keys(arguments).length === 0) return 0
    var array = Object.values(arguments);
    return array.reduce((p, c) => p * c);
@@ -112,6 +113,7 @@ multiplicarArgumentos(10, 2, 1)
 function cuentoElementos(array) {
    // Desarrolla una función que retorne la cantidad de elementos del arreglo cuyo valor sea mayor que 18.
    // Tu código:
+
    let mayoresA18 = [];
    for(let i = 0; i < array.length; i++) {
       if(array[i] > 18) {
