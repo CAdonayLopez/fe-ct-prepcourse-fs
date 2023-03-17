@@ -52,6 +52,7 @@ function map(array, cb) {
    // Tiene que guardar el resultado devuelto por el callback en cada elemento dentro de un nuevo arreglo.
    // Retorna el nuevo arreglo.
    // Tu código:
+   
    var nuevoArray = array.map(function(elemento) { 
       return cb(elemento);
    });
@@ -62,6 +63,7 @@ function filter(arrayOfStrings) {
    // Debes identificar todos los elementos el arreglo que comiencen con la letra "a".
    // Luego retorna un nuevo arreglo con estos elementos.
    // Tu código:
+
    var nuevoArray = [];
       for (let i = 0; i < arrayOfStrings.length; i++) {
          if (arrayOfStrings[i][0] === 'a') {
